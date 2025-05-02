@@ -67,7 +67,7 @@ export default function SelectorDeNecesidades() {
   const total = Object.values(selecciones).reduce((acc, val) => acc + val, 0);
 
   return (
-    <section className="bg-slate-950 h-screen py-20 px-6 text-center">
+    <section className="bg-slate-950 min-h-screen py-20 px-6 text-center">
       <motion.h2
         className="text-3xl md:text-4xl font-bold text-white mb-6"
         initial={{ opacity: 0, y: 40 }}
